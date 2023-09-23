@@ -64,25 +64,6 @@
       <h1><span id="animation"></span><span class="cursor">|</span></h1>
 
 <script>
-<<<<<<< HEAD
-const text = "ahmetserce@$ Web Dev"; // Boşluk eklemiyoruz
-const animationElement = document.getElementById("animation");
-let index = 0;
-
-function showNextLetter() {
-  if (index < text.length) {
-    animationElement.textContent += text[index];
-    index++;
-  } else {
-    animationElement.textContent = ""; // Yazı tamamlandıktan sonra temizlenir
-    index = 0;
-  }
-  setTimeout(showNextLetter, 300); // Her harften sonra 300ms'lik bir gecikme
-}
-
-showNextLetter();
-
-=======
   const text = "ahmetserce@$";
   const animationElement = document.getElementById("animation");
   let index = 0;
@@ -99,7 +80,6 @@ showNextLetter();
   }
 
   showNextLetter();
->>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
 </script>
 
       
@@ -113,22 +93,13 @@ showNextLetter();
             src="https://readme-typing-svg.herokuapp.com?color=0EE6F7&lines=Css+%23%23%23%23%23%23%23%23%23+100%25"></img>
           <img src="https://readme-typing-svg.herokuapp.com?color=EFF727&lines=Javas+%23%23%23%23%23%23%23%23+100%25"></img>
           <img
-<<<<<<< HEAD
-            src="https://readme-typing-svg.herokuapp.com?color=8DF724&lines=Php+%23%23%23%23%23%23%23%23%23+100%25"></img>
-=======
             src="https://readme-typing-svg.herokuapp.com?color=8DF724&lines=Php+%23%23%23%23%23%23%23%23%23+50%25"></img>
->>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
           <img
             src="https://readme-typing-svg.herokuapp.com?color=1F25F7&lines=Python+%23%23%23%23%23%23%23%23+50%25"></img>
           <img
             src="https://readme-typing-svg.herokuapp.com?color=ff0000&lines=React+%23%23%23%23%23%23%23%23%23%23+40%25"></img>
           <img
             src="https://readme-typing-svg.herokuapp.com?color=660099&lines=Sql+%23%23%23%23%23%23%23%23%23%23+30%25"></img>
-<<<<<<< HEAD
-            <img
-            src="https://readme-typing-svg.herokuapp.com?color=a4c639&lines=Kotlin+%23%23%23%23%23%23%23%23%23%23+10%25"></img>
-=======
->>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
 
 
         </div>
