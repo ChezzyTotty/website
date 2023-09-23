@@ -7,6 +7,7 @@
 }
 
 
+
 button:hover {
   background-color: #23527c;
 }
@@ -76,7 +77,28 @@ button {
       content: "...";
     }
   }
-  
+  /* Bu stil sağ üst köşede bulunan menüyü tanımlar */
+#menu {
+  position: fixed; /* Sabit pozisyon */
+  top: 20px; /* Sayfanın üstünden 20 piksel uzaklıkta */
+  right: 20px; /* Sayfanın sağından 20 piksel uzaklıkta */
+}
+
+/* Bağlantıları stilize etmek için kullanabilirsiniz */
+.menu-link {
+  text-decoration:none; /* Bağlantı alt çizgisini kaldırır */
+  color: #f5f5f5; /* Bağlantı metni rengi */
+  margin-right: 20px; /* Bağlantılar arasındaki boşluk */
+  padding: 1px 5px; /* Bağlantı içeriği ile kenar arasındaki boşluk */
+  background-color: none; /* Arka plan rengi */
+  border-radius: 10px; /* Kenar yuvarlaklığı */
+}
+
+
+
+
+
+
   #cursorlar {
    
     
