@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ratelimiter": "^3.4.1",
+    "redis": "^4.6.10"
+  }
+}
