@@ -146,21 +146,32 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
+<<<<<<< HEAD
     width: 99%;
+=======
+    width: 100%;
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
     padding: 12px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     transition: border-color 0.3s ease;
+<<<<<<< HEAD
    
+=======
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
     border-color: #55a1ff;
+<<<<<<< HEAD
     outline: 10px solid #;
+=======
+    outline: none;
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
 }
 
 button[type="submit"],

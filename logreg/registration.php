@@ -62,19 +62,25 @@ if (isset($_REQUEST['username'])) {
     }
 } else {
 ?>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
     <form class="form" action="" method="post">
         <h1 class="login-title">Kayıt Ol</h1>
         <input type="text" class="login-input" name="username" placeholder="Kullanıcı Adı" required />
         <input type="text" class="login-input" name="email" placeholder="Mail Adress">
         <input type="password" class="login-input" name="password" placeholder="Şifre">
+<<<<<<< HEAD
 
         <div style="background-color:000000; color:#696969; font-weight:bold">
         <input  type="checkbox" name="privacy_policy" required>
               <a href="gizlilik-sartlari.html " style="color:#ffffff; text-decoration: none;">Gizlilik şartlarını </a> <a style="color:#ffeerf"> kabul ediyorum.</a>
         </div>
+=======
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
         <input type="submit" name="submit" value="Register" class="login-button">
         <p class="link">Zaten hesabın var mı? <a href="login.php">Giriş Yap</a></p>
     </form>

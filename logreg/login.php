@@ -8,7 +8,11 @@
 <body>
 
 
+<<<<<<< HEAD
 <script src="login-rate-limit.js"> </script>
+=======
+
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
 <?php
 require('db.php');
 
@@ -34,7 +38,11 @@ if (isset($_POST['username'])) {
         } else {
             echo "<div class='form'>
                   <h3>Geçersiz kullanıcı adı/şifre.</h3><br/>
+<<<<<<< HEAD
                   <p class='link'>Tekrar <a href='login.php'>Giriş Yapmayı</a> deneyin.</p>
+=======
+                  <p class='link'>Tekrar <a href='login.php'>Giriş Yap</a> deneyin.</p>
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
                   </div>";
         }
     } else {

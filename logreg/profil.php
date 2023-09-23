@@ -73,23 +73,36 @@ if (!isset($_SESSION['username'])) {
         padding: 11px;
         margin-bottom: 5px;
         border: 1px solid #ccc;
+<<<<<<< HEAD
         font-weight: bold;
         margin-bottom: 20px;
         border-radius:10px;
         color: #000000;
 
+=======
+
+        position: sticky; /* Göz simgesini hizalamak için */
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
     }
 
     .password-input:focus {
         border-color: #55a1ff;
         outline: none;
+<<<<<<< HEAD
         
+=======
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
     }
 
     .password-toggle {
         position: absolute; /* Göz simgesini mutlak pozisyona alın */
+<<<<<<< HEAD
         right: 5px;
         top: 35%; /* Dikey hizalama */
+=======
+        right: 10px;
+        top: 50%; /* Dikey hizalama */
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
         transform: translateY(-50%); /* Dikey hizalama */
         cursor: pointer;
     }
@@ -100,7 +113,11 @@ if (!isset($_SESSION['username'])) {
     }
 
     button[type="submit"] {
+<<<<<<< HEAD
         background-color: #000fff;
+=======
+        background-color: #55a1ff;
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
         color: #fff;
         padding: 12px 24px;
         border: none;
@@ -111,6 +128,7 @@ if (!isset($_SESSION['username'])) {
         transition: background-color 0.3s ease;
     }
 
+<<<<<<< HEAD
      .Main{
         background-color: #000fff;
         color: #fff;
@@ -126,6 +144,8 @@ if (!isset($_SESSION['username'])) {
      
 
 
+=======
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
     button[type="submit"]:hover {
         background-color: #3f8ae0;
     }
@@ -149,6 +169,7 @@ if (!isset($_SESSION['username'])) {
 
     <div class="container">
         <h2>Şifre Değiştir</h2>
+<<<<<<< HEAD
         <p style="font-weight: bold;">Merhaba, <?php echo $_SESSION['username']; ?>!</p>
         <p style="font-weight: bold;">Burada şifre bilgilerinizi görüntüleyebilir ve şifrenizi değiştirebilirsiniz.</p>
         
@@ -157,6 +178,16 @@ if (!isset($_SESSION['username'])) {
             <label for="current_password" >Mevcut Şifre: </label> 
             <div style="position: relative;">
                 <input type="password" id="current_password" name="current_password" class="password-input"  placeholder="Eski Şifre" required>
+=======
+        <p>Merhaba, <?php echo $_SESSION['username']; ?>!</p>
+        <p>Burada şifre bilgilerinizi görüntüleyebilir ve şifrenizi değiştirebilirsiniz.</p>
+        
+        <h3>Şifre Değiştir</h3>
+        <form action="sifre_degistir.php" method="post">
+            <label for="current_password">Mevcut Şifre:</label>
+            <div style="position: relative;">
+                <input type="password" id="current_password" name="current_password" class="password-input" required>
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
                 <div class="password-toggle" onclick="togglePassword('current_password')">
                     <i class="fa fa-eye"></i>
                 </div>
@@ -164,7 +195,11 @@ if (!isset($_SESSION['username'])) {
             
             <label for="new_password">Yeni Şifre:</label>
             <div style="position: relative;">
+<<<<<<< HEAD
                 <input type="password" id="new_password" name="new_password" class="password-input" placeholder="Yeni Şifre"required>
+=======
+                <input type="password" id="new_password" name="new_password" class="password-input" required>
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
                 <div class="password-toggle" onclick="togglePassword('new_password')">
                     <i class="fa fa-eye"></i>
                 </div>
@@ -172,14 +207,21 @@ if (!isset($_SESSION['username'])) {
             
             <label for="confirm_password">Yeni Şifre Tekrar:</label>
             <div style="position: relative;">
+<<<<<<< HEAD
                 <input type="password" id="confirm_password" name="confirm_password" class="password-input"  placeholder="Yeni Şifreyi Doğrula" required>
+=======
+                <input type="password" id="confirm_password" name="confirm_password" class="password-input" required>
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
                 <div class="password-toggle" onclick="togglePassword('confirm_password')">
                     <i class="fa fa-eye"></i>
                 </div>
             </div>
             
             <button type="submit">Şifre Değiştir</button>
+<<<<<<< HEAD
             <a  class="Main"  href="../index.php" >Ana Menü</a>
+=======
+>>>>>>> f141a96cf5a43a0e8966f42cb1e4061c4945d62f
         </form>
     </div>
 
